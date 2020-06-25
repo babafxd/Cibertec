@@ -4,6 +4,8 @@
     Author     : MarcoHuawei
 --%>
 
+<%@page import="java.util.Date"%>
+<%@page import="java.text.SimpleDateFormat"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!doctype html>
 <html lang="es">
@@ -55,7 +57,12 @@
                 </label>
             </div>
             <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
-            <p class="mt-5 mb-3 text-muted">&copy; 2017-2020</p>
+            <p class="mt-5 mb-3 text-muted">&copy; 
+                <% SimpleDateFormat format = new SimpleDateFormat("yyyy");
+                   String dateString = format.format(new Date());
+                   out.println(dateString);             
+                %>
+            </p>
         </form>
     </body>
 </html>

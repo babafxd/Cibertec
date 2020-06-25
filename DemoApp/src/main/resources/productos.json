@@ -1,31 +1,30 @@
 [{
-        "nombre": "XBOX 360",
-        "precio": "500.00",
-        "estado": "EN STOCK",
-        "cantidad": "5",
-        "id": 1
+        "Codigo": 1,
+        "Nombre": "XBOX 360",
+        "Stock": "5",
+        "Unidad": "1",
+        "Precio": "500.00",
+        "Imagen": "https://via.placeholder.com/50"       
     }, {
-        "nombre": "XBOX X",
-        "precio": "1560.00",
-        "estado": "EN STOCK",
-        "cantidad": "50",
-        "id": 2
+        "Codigo": 2,
+        "Nombre": "XBOX X",
+        "Stock": "0",
+        "Unidad": "1",
+        "Precio": "900.00",
+        "Imagen": "https://via.placeholder.com/50" 
     }, {
-        "nombre": "PLAY STATION 4",
-        "precio": "1700.00",
-        "estado": "EN STOCK",
-        "cantidad": "50",
-        "id": 3
+        "Codigo": 3,
+        "Nombre": "PLAY STATION 4",
+        "Stock": "0",
+        "Unidad": "1",
+        "Precio": "1700.00",
+        "Imagen": "https://via.placeholder.com/50" 
     }, {
-        "nombre": "PLAY STATION VITA",
-        "precio": "800.00",
-        "estado": "EN STOCK",
-        "cantidad": "15",
-        "id": 4
-    }, {
-        "nombre": "NINTENDO 3DS",
-        "precio": "500.00",
-        "estado": "SIN STOCK",
-        "cantidad": 0,
-        "id": 5
-    }]
+        "Codigo": 4,
+        "Nombre": "NINTENDO 3DS",
+        "Stock": "100",
+        "Unidad": "1",
+        "Precio": "600.00",
+        "Imagen": "https://via.placeholder.com/50" 
+    }
+]

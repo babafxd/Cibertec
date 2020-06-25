@@ -1,0 +1,22 @@
+[{
+        "Codigo": 1,
+        "Nombre": "CTP CONSULTORES SAC",
+        "Direccion": "LIMA LA VICTORIA",
+        "Pais": "PERU"     
+    }, {
+        "Codigo": 2,
+        "Nombre": "SAGA FALABELLA",
+        "Direccion": "SANTA ANITA",
+        "Pais": "PERU"  
+    }, {
+        "Codigo": 3,
+        "Nombre": "RIPLEY",
+        "Direccion": "MIRAFLORES",
+        "Pais": "PERU"  
+    }, {
+        "Codigo": 4,
+        "Nombre": "MAPFRE",
+        "Direccion": "MIRAFLORES",
+        "Pais": "PERU"  
+    }
+]

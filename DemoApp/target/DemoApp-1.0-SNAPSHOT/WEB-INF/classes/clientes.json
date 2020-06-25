@@ -1,0 +1,57 @@
+[   {
+        "RUC": "20100151112",
+        "Nombre": "TUBOS Y PERFILES METALICOS S.A.",
+        "Sector": "METALMECANICA",
+        "Direccion": "Antigua Carretera Panamericana Sur km 21.5, Urb. San Marino,Villa El Salvador,Lima",
+        "Web": "www.tupemesa.com.pe"
+    },
+    {
+        "RUC": "20102427891",
+        "Nombre": "TURISMO CIVA S.A.C.",
+        "Sector": "TURISMO",
+        "Direccion": "Jr. Sancho de Rivera 1184, Urb. Monserrate,Cercado,Lima",
+        "Web": "www.civa.com.pe"
+    },
+    {
+        "RUC": "20501918343",
+        "Nombre": "ULMA ENCOFRADOS PERU S.A.",
+        "Sector": "COMERCIALIZADORAS",
+        "Direccion": "Av. Argentina 2882,Cercado,Lima",
+        "Web": "www.ulmaconstruction.com.pe"
+    },
+    {
+        "RUC": "20100027021",
+        "Nombre": "UNIMAQ S.A.",
+        "Sector": "COMERCIALIZADORAS",
+        "Direccion": "Av. Evitamiento 1936,Ate,Lima",
+        "Web": "www.unimaq.com.pe"
+    },
+    {
+        "RUC": "20100412447",
+        "Nombre": "UNIMAR S.A.",
+        "Sector": "TRANSPORTE",
+        "Direccion": "Av. Néstor Gambetta 5349,Cercado Callao,Callao",
+        "Web": "www.unimar.com.pe"
+    },
+    {
+        "RUC": "20100137390",
+        "Nombre": "UNION ANDINA DE CEMENTOS S.A.A.",
+        "Sector": "MINERALES NO METALICOS",
+        "Direccion": "Av. Atocongo 2440, P.J. José Gálvez,Villa María del Triunfo,Lima",
+        "Web": "www.unacem.com.pe"
+    },
+    {
+        "RUC": "20297543653",
+        "Nombre": "UNION DE CONCRETERAS S.A.",
+        "Sector": "MINERALES NO METALICOS",
+        "Direccion": "Carretera Panamericana Sur km 11.4, Fundo El Chilcal, Zona Industrial,San Juan de Miraflores,Lima",
+        "Web": "www.unicon.com.pe"
+    },
+    {
+        "RUC": "20100047137",
+        "Nombre": "UNION YCHICAWA S.A.",
+        "Sector": "COMERCIALIZADORAS",
+        "Direccion": "Jr. Junín 758-774,Cercado,Lima",
+        "Web": "www.uysa.com.pe"
+    }
+]

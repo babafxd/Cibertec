@@ -1,0 +1,27 @@
+body {
+    font-family: Tahoma, Verdana, Arial;
+    font-size: .8em;
+    font-style: normal;
+    color: #444;
+}
+
+#main {
+    width: 1100px;
+    margin:0 auto;
+}
+
+#menu {
+    float: left;
+    width: 200px;
+}
+
+#data {
+    float: right;
+    width: 880px;
+    height: 500px;
+}
+
+#pie {
+    clear: both;
+}
+

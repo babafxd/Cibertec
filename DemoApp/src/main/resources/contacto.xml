@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <contacto>
+        <nombre>MARCO SAAVEDRA</nombre>
+        <telefono>995788784</telefono>
+        <correo>babafxd@gmail.com</correo>
+        <cargo>PRESIDENTE</cargo>
+    </contacto>
+    <contacto>
+        <nombre>YANET QUISPE</nombre>
+        <telefono>998787875</telefono>
+        <correo>yquispe@gmail.com</correo>
+        <cargo>GERENTE GENERAL</cargo>
+    </contacto>
+</data>

@@ -6,6 +6,7 @@
 package com.ctpconsultores.demoapp;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -26,18 +27,31 @@ public class ServletLogin extends HttpServlet
             HttpServletResponse response)
             throws ServletException, IOException {
         String target = "/login.jsp";
-        
+
         if (request.getParameter("usuario").equals("admin") && request.getParameter("password").equals("123")) {
-            
+
             HttpSession session = request.getSession(true);
             session.setAttribute("usuario", "Marco Saavedra");
 
             HttpSessionEvent se = new HttpSessionEvent(session);
             sessionDidActivate(se);
             target = "/index.jsp";
+
+            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(target);
+            dispatcher.forward(request, response);
+
+        } else {
+
+            //RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(target);
+            //dispatcher.forward(request, response);
+            response.setContentType("text/html;charset=UTF-8");
+            PrintWriter out = response.getWriter();
+            out.print("<script type=\"text/javascript\">(function () {alert('Usuario o contraseña incorrectos');})();</script>");
+            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/login.jsp");
+            dispatcher.include(request, response);
+
         }
-        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(target);
-        dispatcher.forward(request, response);
+
     }
 
     @Override
